@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.atlassian.pom</groupId>
         <artifactId>atlassian-private-pom</artifactId>
-        <version>24</version>
+        <version>25.13</version>
     </parent>
 
 
@@ -116,8 +116,8 @@
     
 
     <scm>
-        <connection>scm:svn:https://svn.atlassian.com/svn/private/atlassian/dummy/trunk</connection>
-        <developerConnection>scm:svn:https://svn.atlassian.com/svn/private/atlassian/dummy/trunk</developerConnection>
-        <url>https://svn.atlassian.com/svn/private/atlassian/dummy/trunk</url>
+        <connection>scm:git:https://bitbucket.org/atlassian/private-dummy-project</connection>
+        <developerConnection>scm:git:https://bitbucket.org/atlassian/private-dummy-project</developerConnection>
+        <url>https://bitbucket.org/atlassian/private-dummy-project</url>
     </scm>
 </project>
