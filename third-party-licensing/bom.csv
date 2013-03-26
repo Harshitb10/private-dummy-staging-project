@@ -6,8 +6,10 @@ Component, GAV, License, URL, Scope
 ASM Core,asm:asm:jar:3.1,BSD License,http://asm.objectweb.org/asm/,binary
 dummy,com.atlassian.dummy:dummy-public:jar:1.43,BSD License,https://bitbucket.org/atlassian/public-dummy-project/,binary
 Gson,com.google.code.gson:gson:jar:1.7.2,Apache License 2.0,http://code.google.com/p/google-gson/,binary
+highlight,7.3,BSD License,http://softwaremaniacs.org/soft/highlight/en/,binary
 jersey-core,com.sun.jersey:jersey-core:bundle:1.8,Common Public License 1.1,https://jersey.dev.java.net/jersey-core/,binary
 jersey-grizzly,com.sun.jersey:jersey-grizzly:bundle:1.8,Common Public License 1.1,https://jersey.dev.java.net/jersey-grizzly/,binary
 jersey-server,com.sun.jersey:jersey-server:bundle:1.8,Common Public License 1.1,https://jersey.dev.java.net/jersey-server/,binary
 JUnit,junit:junit:jar:3.8.1,Common Public License 1.0,http://junit.org,test
 jzlib,jzlib:jzlib:jar:1.0.5,BSD License,,binary
+unorm,1.0.0,MIT License,http://coderepos.org/share/browser/lang/javascript/UnicodeNormalizer,binary
