@@ -1,0 +1,12 @@
+# Javascript dependencency
+newlibrary--1.0.license=BSD License
+newlibrary--1.0.url=http://www.googlecode.com/newlibrary/
+newlibrary--1.0.scope=binary
+
+
+#Maven dependency
+	<dependency>
+	    <groupId>ant</groupId>
+	    <artifactId>ant</artifactId>
+            <version>1.5.4</version>
+        </dependency>

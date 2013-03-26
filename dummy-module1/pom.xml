@@ -17,16 +17,6 @@
 
   <name>dummy module1</name>
   <dependencies>
-	<!-- <dependency>
-	    <groupId>ant</groupId>
-	    <artifactId>ant</artifactId>
-            <version>1.5.4</version>
-        </dependency>
-	<dependency>
-	    <groupId>bouncycastle</groupId>
-	    <artifactId>bcprov-jdk14</artifactId>
-            <version>140</version>
-        </dependency> -->
         <dependency>
             <groupId>com.google.code.findbugs</groupId>
             <artifactId>jsr305</artifactId>
