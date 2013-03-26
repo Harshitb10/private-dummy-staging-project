@@ -5,6 +5,7 @@
 Component, GAV, License, URL, Scope
 ASM Core,asm:asm:jar:3.1,BSD License,http://asm.objectweb.org/asm/,binary
 dummy,com.atlassian.dummy:dummy-public:jar:1.43,BSD License,https://bitbucket.org/atlassian/public-dummy-project/,binary
+FindBugs-jsr305,com.google.code.findbugs:jsr305:jar:1.3.9,Apache License 2.0,http://findbugs.sourceforge.net/,binary
 Gson,com.google.code.gson:gson:jar:1.7.2,Apache License 2.0,http://code.google.com/p/google-gson/,binary
 highlight,7.3,BSD License,http://softwaremaniacs.org/soft/highlight/en/,binary
 jersey-core,com.sun.jersey:jersey-core:bundle:1.8,Common Public License 1.1,https://jersey.dev.java.net/jersey-core/,binary

@@ -10,9 +10,11 @@
   <groupId>com.atlassian.dummy</groupId>
   <artifactId>dummy-module3</artifactId>
   <version>2.1-SNAPSHOT</version>
-  <name>dummy module3</name>
+  <name>func tests - dummy module3</name>
   <url>http://maven.apache.org</url>
+
+
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     <license.scope>test</license.scope>
   </properties>
 </project>
