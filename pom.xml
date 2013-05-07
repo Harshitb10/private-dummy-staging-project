@@ -149,6 +149,11 @@
 
     </build>
 
-
+    <distributionManagement>
+        <site>
+            <id>atlassian-documentation</id>
+            <url>scp://docs.atlassian.com/${project.artifactId}/${project.version}</url>
+        </site>
+    </distributionManagement>
 
 </project>
