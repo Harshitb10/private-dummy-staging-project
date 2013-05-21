@@ -101,7 +101,7 @@
                 <groupId>com.atlassian.maven.plugins</groupId>
                 <artifactId>sandbox-maven-plugin</artifactId>
                 <version>2.1-beta19-SNAPSHOT</version>
-           </plugins>
+           </plugin>
     <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>license-maven-plugin</artifactId>
