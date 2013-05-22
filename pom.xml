@@ -100,7 +100,7 @@
             <plugin>
                 <groupId>com.atlassian.maven.plugins</groupId>
                 <artifactId>sandbox-maven-plugin</artifactId>
-                <version>2.1-beta19-SNAPSHOT</version>
+                <version>2.1-beta15</version>
            </plugin>
     <plugin>
         <groupId>org.codehaus.mojo</groupId>
