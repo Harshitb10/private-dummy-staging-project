@@ -154,7 +154,7 @@
     <distributionManagement>
         <site>
             <id>atlassian-documentation</id>
-            <url>scp://uploads@docs-fe.internal.atlassian.com/var/www/domains/docs.atlassian.com/${project.artifactId}/${project.version}</url>
+            <url>scpexe://uploads@docs-app.internal.atlassian.com/var/www/domains/docs.atlassian.com/${project.artifactId}/${project.version}</url>
         </site>
     </distributionManagement>
 
