@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.atlassian.pom</groupId>
         <artifactId>atlassian-private-pom</artifactId>
-        <version>25.13</version>
+        <version>25.15</version>
     </parent>
 
 
