@@ -150,12 +150,4 @@
     </pluginManagement>
 
     </build>
-
-    <distributionManagement>
-        <site>
-            <id>atlassian-documentation</id>
-            <url>scpexe://uploads@docs-app.internal.atlassian.com/var/www/domains/docs.atlassian.com/${project.artifactId}/${project.version}</url>
-        </site>
-    </distributionManagement>
-
 </project>
