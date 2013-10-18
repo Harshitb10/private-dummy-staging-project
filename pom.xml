@@ -109,7 +109,6 @@
                 <version>2.2.2</version>
                 <configuration>
                     <arguments>-DskipITs=true</arguments>
-                    <releaseProfiles>release</releaseProfiles>
                 </configuration>
             </plugin>           
     <plugin>
