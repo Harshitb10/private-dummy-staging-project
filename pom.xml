@@ -4,8 +4,8 @@
 
     <parent>
         <groupId>com.atlassian.pom</groupId>
-        <artifactId>atlassian-private-pom</artifactId>
-        <version>25.15</version>
+        <artifactId>atlassian-closedsource-pom</artifactId>
+        <version>41</version>
     </parent>
 
 
@@ -102,6 +102,16 @@
                 <artifactId>sandbox-maven-plugin</artifactId>
                 <version>2.1-beta15</version>
            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <!-- remove specified version, as soon as the base pom has changed the version of the plugin -->
+                <version>2.2.2</version>
+                <configuration>
+                    <arguments>-DskipITs=true</arguments>
+                    <releaseProfiles>release</releaseProfiles>
+                </configuration>
+            </plugin>           
     <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>license-maven-plugin</artifactId>
