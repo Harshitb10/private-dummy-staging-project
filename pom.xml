@@ -109,6 +109,11 @@
                 <version>2.2.2</version>
                 <configuration>
                     <arguments>-DskipITs=true</arguments>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-scm-plugin</artifactId>
+                            <version>1.9</version>
                 </configuration>
             </plugin>           
     <plugin>
