@@ -6,13 +6,13 @@
     <parent>
         <groupId>com.atlassian.dummy</groupId>
         <artifactId>dummy-private</artifactId>
-        <version>2.316gtvtfvtfvt-9</version>
+        <version>2.31-SNAPSHOT</version>
     </parent>
 
 
   <groupId>com.atlassian.dummy</groupId>
   <artifactId>dummy-module1</artifactId>
-  <version>2.316gtvtfvtfvt-9</version>
+  <version>2.23</version>
   <packaging>jar</packaging>
 
   <name>dummy module1</name>

@@ -4,12 +4,12 @@
   <parent>
     <groupId>com.atlassian.dummy</groupId>
     <artifactId>dummy-private</artifactId>
-    <version>2.316gtvtfvtfvt-9</version>
+    <version>2.31-SNAPSHOT</version>
   </parent>
 
   <groupId>com.atlassian.dummy</groupId>
   <artifactId>dummy-module3</artifactId>
-  <version>2.316gtvtfvtfvt-9</version>
+  <version>2.23</version>
   <name>func tests - dummy module3</name>
   <url>http://maven.apache.org</url>
 
