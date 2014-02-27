@@ -3,6 +3,7 @@ newlibrary--1.0.license=BSD License
 newlibrary--1.0.url=http://www.googlecode.com/newlibrary/
 newlibrary--1.0.scope=binary
 
+release=buildeng-test
 
 #Maven dependency
 	<dependency>
