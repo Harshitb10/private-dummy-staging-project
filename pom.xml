@@ -12,7 +12,7 @@
     <groupId>com.atlassian.dummy</groupId>
     <artifactId>dummy-private</artifactId>
     <packaging>pom</packaging>
-    <version>y</version>
+    <version>2.25-SNAPSHOT</version>
 
     <profiles>
       <profile>
