@@ -109,6 +109,7 @@
                 <version>2.2.2</version>
                 <configuration>
                     <arguments>-DskipITs=true</arguments>
+</configuration>
                     <dependencies>
                         <dependency>
                             <groupId>org.apache.maven.plugins</groupId>
@@ -116,8 +117,6 @@
                             <version>1.9</version>
                         </dependency>
                     </dependencies>
-
-                </configuration>
             </plugin>           
     <plugin>
         <groupId>org.codehaus.mojo</groupId>
