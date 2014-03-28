@@ -114,8 +114,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <!-- remove specified version, as soon as the base pom has changed the version of the plugin -->
-                <version>2.5</version>
                 <configuration>
                     <arguments>-DskipITs=true</arguments>
 </configuration>
