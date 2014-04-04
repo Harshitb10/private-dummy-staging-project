@@ -1,0 +1,104 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.atlassian.dummy</groupId>
+    <artifactId>dummy-private</artifactId>
+    <version>2.38-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>dummy-source-distribution</artifactId>
+  <packaging>pom</packaging>
+  <name>Atlassian Dummy Distribution Source</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.atlassian.dummy</groupId>
+      <artifactId>dummy-private</artifactId>
+      <version>${project.version}</version>
+      <type>pom</type>
+    </dependency>
+
+  </dependencies>
+
+  <profiles>
+    <profile>
+      <!-- activate this profile to explicitly checkout sources from a given revision -->
+      <id>source-distribution-snapshot</id>
+      <properties>
+        <bamboo.source.base.isSnapshot>true</bamboo.source.base.isSnapshot>
+        <bamboo.product.branch.name>master</bamboo.product.branch.name>
+      </properties>
+    </profile>
+  </profiles>
+
+  <build>
+    <finalName>dummy-private</finalName>
+    <plugins>
+      <plugin>
+        <groupId>com.atlassian.maven.plugins</groupId>
+        <artifactId>maven-atlassian-source-distribution-plugin</artifactId>
+        <version>4.0.2-SNAPSHOT</version> <!-- -->
+        <executions>
+          <execution>
+            <id>source-release</id>
+            <phase>package</phase>
+            <goals>
+              <goal>source</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <scmVersionName>master</scmVersionName>
+          <scmVersionType>branch</scmVersionType>
+          <useReactor>true</useReactor>
+          <!-- Configuration relating to how to checkout the bamboo project -->
+          <baseProject>com.atlassian.dummy:dummy-private</baseProject>
+
+          <!-- Configure how to build the bamboo project specifically -->
+          <finalMavenBuildCommands>
+            <finalMavenBuildCommand>
+              <useMaven3>true</useMaven3>
+              <cmdArgs>clean install</cmdArgs>
+            </finalMavenBuildCommand>
+          </finalMavenBuildCommands>
+         
+        </configuration>
+      </plugin>      
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <finalName>${project.build.finalName}-${project.version}</finalName>
+        </configuration>
+        <executions>
+          <execution>
+            <id>source</id>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+            <configuration>
+              <attach>true</attach>
+              <descriptors>
+                <descriptor>src/main/assembly/source.xml</descriptor>
+              </descriptors>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <distributionManagement>
+    <repository>
+      <id>atlassian-private</id>
+      <name>Atlassian Private Repository</name>
+      <url>dav:https://maven.atlassian.com/private</url>
+    </repository>
+    <snapshotRepository>
+
+      <id>atlassian-private-snapshot</id>
+      <name>Atlassian Private Snapshot Repository</name>
+      <url>dav:https://maven.atlassian.com/private-snapshot</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+</project>

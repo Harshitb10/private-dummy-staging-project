@@ -45,6 +45,12 @@
           </plugins>
         </build>
       </profile>
+      <profile>
+            <id>source</id>
+            <modules>
+                <module>source</module>
+            </modules>
+        </profile>
     </profiles>
 
     <modules>
@@ -161,7 +167,7 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
         <version>2.1</version>
-    </plugin> -->
+    </plugin> -->    
     </plugins>
     </pluginManagement>
 
