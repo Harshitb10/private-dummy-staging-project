@@ -3,7 +3,7 @@
   <parent>
     <groupId>com.atlassian.dummy</groupId>
     <artifactId>dummy-private</artifactId>
-    <version>2.38-SNAPSHOT</version>
+    <version>2.41-SNAPSHOT</version>
   </parent>
 
   <artifactId>dummy-source-distribution</artifactId>
@@ -37,7 +37,7 @@
       <plugin>
         <groupId>com.atlassian.maven.plugins</groupId>
         <artifactId>maven-atlassian-source-distribution-plugin</artifactId>
-        <version>4.0.2-SNAPSHOT</version> <!-- -->
+        <version>4.0.2-b2</version> <!-- -->
         <executions>
           <execution>
             <id>source-release</id>
