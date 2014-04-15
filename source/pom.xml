@@ -37,7 +37,7 @@
       <plugin>
         <groupId>com.atlassian.maven.plugins</groupId>
         <artifactId>maven-atlassian-source-distribution-plugin</artifactId>
-        <version>4.0.2-b2</version> <!-- -->
+        <version>4.0.1</version> <!-- -->
         <executions>
           <execution>
             <id>source-release</id>
