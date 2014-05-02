@@ -12,7 +12,7 @@
     <groupId>com.atlassian.dummy</groupId>
     <artifactId>dummy-private</artifactId>
     <packaging>pom</packaging>
-    <version>2.37-SNAPSHOT</version>
+    <version>2.43-SNAPSHOT</version>
 
     <profiles>
       <profile>
@@ -45,6 +45,12 @@
           </plugins>
         </build>
       </profile>
+      <profile>
+            <id>source</id>
+            <modules>
+                <module>source</module>
+            </modules>
+        </profile>
     </profiles>
 
     <modules>
@@ -161,7 +167,7 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
         <version>2.1</version>
-    </plugin> -->
+    </plugin> -->    
     </plugins>
     </pluginManagement>
 

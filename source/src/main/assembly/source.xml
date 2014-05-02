@@ -1,0 +1,68 @@
+<assembly>
+  <id>source</id>
+  <formats>
+    <format>zip</format>
+  </formats>
+  <baseDirectory>atlassian-bamboo-${project.version}-source</baseDirectory>
+
+  <fileSets>
+    <fileSet>
+      <directory>target/checkouts</directory>
+      <outputDirectory/>
+      <includes>
+        <include>**/*</include>
+      </includes>
+      <excludes>
+        <exclude>**/.svn</exclude>
+        <exclude>**/.hg</exclude>
+        <exclude>**/.hg*</exclude>
+        <exclude>**/.hg/**</exclude>
+        <exclude>**/.hgrc</exclude>
+        <exclude>**/.hgtags</exclude>
+        <exclude>**/.hgignore</exclude>
+        <exclude>**/.hgeol</exclude>
+        <exclude>**/.git</exclude>
+        <exclude>**/.git/**</exclude>        
+        <exclude>**/mvn*</exclude>
+        <exclude>**/maven*/**</exclude>
+      </excludes>
+    </fileSet>
+    <fileSet>
+      <directory>target/checkouts</directory>
+      <outputDirectory/>
+      <includes>
+        <include>**/build*</include>
+        <include>**/mvn*</include>
+        <include>**/maven*/**</include>
+      </includes>
+      <!-- excludes has to be repeated here otherwise their contents which match the include pattern would be copied to output -->
+      <excludes>
+        <exclude>**/.svn</exclude>
+        <exclude>**/.hg</exclude>
+        <exclude>**/.hg*</exclude>
+        <exclude>**/.hg/**</exclude>
+        <exclude>**/.hgrc</exclude>
+        <exclude>**/.hgtags</exclude>
+        <exclude>**/.hgignore</exclude>
+        <exclude>**/.hgeol</exclude>
+        <exclude>**/.git</exclude>
+        <exclude>**/.git/**</exclude>        
+      </excludes>
+      <fileMode>0744</fileMode>
+      <directoryMode>0744</directoryMode>
+    </fileSet>
+  </fileSets>
+
+  <dependencySets>
+    <!-- licenses -->
+    <dependencySet>
+      <outputFileNameMapping/>
+      <unpack>true</unpack>
+      <unpackOptions>
+        <includes>
+          <include>licenses/*</include>
+        </includes>
+      </unpackOptions>      
+    </dependencySet>
+  </dependencySets>
+</assembly>
