@@ -1,3 +1,4 @@
+# Test new line
 # Javascript dependencency
 newlibrary--1.0.license=BSD License
 newlibrary--1.0.url=http://www.googlecode.com/newlibrary/
