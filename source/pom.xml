@@ -91,13 +91,13 @@
     <repository>
       <id>atlassian-private</id>
       <name>Atlassian Private Repository</name>
-      <url>dav:https://maven.atlassian.com/private</url>
+      <url>https://maven.atlassian.com/private</url>
     </repository>
     <snapshotRepository>
 
       <id>atlassian-private-snapshot</id>
       <name>Atlassian Private Snapshot Repository</name>
-      <url>dav:https://maven.atlassian.com/private-snapshot</url>
+      <url>https://maven.atlassian.com/private-snapshot</url>
     </snapshotRepository>
   </distributionManagement>
 
