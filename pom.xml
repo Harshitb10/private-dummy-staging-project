@@ -13,9 +13,6 @@
     <artifactId>dummy-private</artifactId>
     <packaging>pom</packaging>
     <version>2.60-SNAPSHOT</version>
-    <properties>
-      <skip.nexus.staging>true</skip.nexus.staging>
-    </properties>
 
     <profiles>
       <profile>
