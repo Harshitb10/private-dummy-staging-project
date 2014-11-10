@@ -3,10 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.atlassian.dummy</groupId>
-    <artifactId>dummy-private</artifactId>
+    <artifactId>dummy-private-staging</artifactId>
     <version>2.62-SNAPSHOT</version>
   </parent>
-  <artifactId>dummy-module2</artifactId>
+  <artifactId>dummy-module2-staging</artifactId>
   <name>dummy module2</name>
   <url>http://maven.apache.org</url>
   <properties>

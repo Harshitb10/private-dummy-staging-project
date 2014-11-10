@@ -2,11 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.atlassian.dummy</groupId>
-    <artifactId>dummy-private</artifactId>
+    <artifactId>dummy-private-staging</artifactId>
     <version>2.61-SNAPSHOT</version>
   </parent>
 
-  <artifactId>dummy-source-distribution</artifactId>
+  <artifactId>dummy-source-distribution-staging</artifactId>
   <packaging>pom</packaging>
   <name>Atlassian Dummy Distribution Source</name>
 

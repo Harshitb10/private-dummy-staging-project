@@ -10,7 +10,7 @@
 
 
     <groupId>com.atlassian.dummy</groupId>
-    <artifactId>dummy-private</artifactId>
+    <artifactId>dummy-private-staging</artifactId>
     <packaging>pom</packaging>
     <version>2.62-SNAPSHOT</version>
 
