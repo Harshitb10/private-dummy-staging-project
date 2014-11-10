@@ -89,19 +89,30 @@
   </scm>
     <build>
     <plugins>
-            <plugin>
-                <groupId>com.atlassian.maven.plugins</groupId>
-                <artifactId>sandbox-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>enable-sandbox</id>
-                        <phase>validate</phase>
-                        <goals>
-                            <goal>sandbox</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+        <plugin>
+            <groupId>org.sonatype.plugins</groupId>
+            <artifactId>nexus-staging-maven-plugin</artifactId>
+            <version>1.6.2</version>
+            <extensions>true</extensions>
+            <configuration>
+                <nexusUrl>http://nexus-atlassian-private.buildeng.atlassian.com:8081</nexusUrl>
+                <serverId>vagrant</serverId>
+                <staging-profile-id>atlassian-vagrant-staging</staging-profile-id>
+            </configuration>
+        </plugin>
+            <!--<plugin>-->
+                <!--<groupId>com.atlassian.maven.plugins</groupId>-->
+                <!--<artifactId>sandbox-maven-plugin</artifactId>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<id>enable-sandbox</id>-->
+                        <!--<phase>validate</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>sandbox</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
     </plugins>
     <pluginManagement>
     <plugins>
