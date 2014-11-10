@@ -35,8 +35,8 @@
                   </goals>
                   <configuration>
                     <tasks>
-                      <mkdir dir="${project.build.directory}" />
-                      <unzip src="${artifact.location}/${artifact.name}.jar" dest="${project.build.directory}" />
+                      <mkdir dir="${project.build.directory}"/>
+                      <unzip src="${artifact.location}/${artifact.name}.jar" dest="${project.build.directory}"/>
                     </tasks>
                   </configuration>
                 </execution>
@@ -57,7 +57,8 @@
         <module>dummy-module1</module>
         <module>dummy-module2</module>
         <module>dummy-module3</module>
-    </modules>
+    <module>dummy-plugin-staging</module>
+  </modules>
 
     <name>dummy</name>
     <url>https://svn.atlassian.com/svn/private/atlassian/dummy</url>
