@@ -95,9 +95,10 @@
             <version>1.6.2</version>
             <extensions>true</extensions>
             <configuration>
-                <nexusUrl>http://nexus-atlassian-private.buildeng.atlassian.com:8081</nexusUrl>
+                <nexusUrl>http://33.33.33.110:8081</nexusUrl>
                 <serverId>vagrant</serverId>
                 <staging-profile-id>atlassian-vagrant-staging</staging-profile-id>
+                <skipStaging>false</skipStaging>
             </configuration>
         </plugin>
             <!--<plugin>-->
