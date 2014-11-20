@@ -41,9 +41,9 @@
         <version>1.6.2</version>
         <extensions>true</extensions>
         <configuration>
-          <nexusUrl>http://33.33.33.110:8081</nexusUrl>
-          <serverId>vagrant</serverId>
-          <stagingProfileId>2042f591b5fd</stagingProfileId>
+          <nexusUrl>http://nexus-atlassian-closedsource.buildeng.atlassian.com:8081/</nexusUrl>
+          <serverId>atlassian-private</serverId>
+          <stagingProfileId>58b2f2c68b</stagingProfileId>
           <skipStaging>false</skipStaging>
         </configuration>
       </plugin>
