@@ -55,7 +55,6 @@
 
     <modules>
         <module>dummy-module1</module>
-    <module>dummy-plugin-staging</module>
   </modules>
 
     <name>dummy</name>
