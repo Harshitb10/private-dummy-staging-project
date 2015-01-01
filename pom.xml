@@ -60,11 +60,6 @@
     <name>dummy</name>
     <url>https://svn.atlassian.com/svn/private/atlassian/dummy</url>
     <dependencies>
-	<dependency>
-	    <groupId>com.atlassian.dummy</groupId>
-	    <artifactId>dummy-public</artifactId>
-            <version>RELEASE</version>
-        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
