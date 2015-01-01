@@ -89,10 +89,9 @@
         <plugin>
             <groupId>org.sonatype.plugins</groupId>
             <artifactId>nexus-staging-maven-plugin</artifactId>
-            <version>1.6.2</version>
             <extensions>true</extensions>
             <configuration>
-                <nexusUrl>http://nexus-atlassian-closedsource.buildeng.atlassian.com:8081/</nexusUrl>
+                <nexusUrl>http://localhost:8081/nexus</nexusUrl>
                 <serverId>atlassian-private</serverId>
                 <stagingProfileId>58b2f2c68b</stagingProfileId>
                 <skipStaging>false</skipStaging>
