@@ -87,6 +87,26 @@
         <tag>HEAD</tag>
     </scm>
     <build>
+        <plugins>
+		<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <configuration>
+            <tasks>
+                 <sleep seconds="5000" />
+            </tasks>
+        </configuration>
+        <executions>
+            <execution>
+                <id>sleep-for-a-while</id>
+                <phase>process-resources</phase>
+                <goals>
+                    <goal>run</goal>
+                </goals>
+            </execution>
+       </executions>
+     </plugin>
+	</plugins>
         <pluginManagement>
             <plugins>
                 <plugin>
