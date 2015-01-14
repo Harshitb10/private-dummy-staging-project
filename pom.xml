@@ -60,7 +60,7 @@
   </modules>
 
     <name>dummy</name>
-    <url>https://svn.atlassian.com/svn/private/atlassian/dummy</url>
+    <url>https://bitbucket.org/atlassian/private-dummy-staging-project/overview</url>
     <dependencies>
 	<dependency>
 	    <groupId>com.atlassian.dummy</groupId>
