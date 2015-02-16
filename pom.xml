@@ -81,8 +81,8 @@
     </dependencies>
 
     <scm>
-        <connection>scm:git:ssh://git@bitbucket.org:atlassian/private-dummy-staging-project.git</connection>
-        <developerConnection>scm:git:ssh://git@bitbucket.org:atlassian/private-dummy-staging-project.git</developerConnection>
+        <connection>scm:git:git@bitbucket.org:atlassian/private-dummy-staging-project.git</connection>
+        <developerConnection>scm:git:git@bitbucket.org:atlassian/private-dummy-staging-project.git</developerConnection>
         <url>https://bitbucket.org/atlassian/private-dummy-staging-project</url>
         <tag>HEAD</tag>
     </scm>
