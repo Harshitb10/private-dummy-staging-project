@@ -99,7 +99,7 @@
                         <serverId>atlassian-private</serverId>
                         <stagingProfileId>atlassian-public-staging</stagingProfileId>
                         <skipStaging>false</skipStaging>
-                        <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                        <autoReleaseAfterClose>false</autoReleaseAfterClose>
                     </configuration>
                 </plugin>
                 <plugin>
