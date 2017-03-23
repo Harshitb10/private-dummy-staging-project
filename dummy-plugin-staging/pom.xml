@@ -6,7 +6,7 @@
     <parent>
         <artifactId>dummy-private-staging</artifactId>
         <groupId>com.atlassian.dummy</groupId>
-        <version>2.8.222-SNAPSHOT</version>
+        <version>2.8.222</version>
     </parent>
     <artifactId>dummy-plugin-staging</artifactId>
 
